@@ -11,7 +11,7 @@ GuildAchievementDisabler is a World of Warcraft addon designed to prevent guild 
 
 ## 📜 Commands
 
-- **/gad achievementID`:** Test a specific achievement by simulating the alert popup for that achievement.
+- **`/gad achievementID`:** Test a specific achievement by simulating the alert popup for that achievement.
 
 ## 🤝 Contributing
 
