@@ -1,0 +1,13 @@
+## Interface: 110002
+
+## Title: GuildAchievementDisabler
+## Notes: Disables the guild achievement alert popups.
+## IconTexture: Interface/Icons/ability_siege_engineer_automatic_repair_beam.blp
+
+## Version: 1.0.0
+## X-Curse-Project-ID: 1096918
+
+## Author: Kain
+## X-Email: masterkain at gmail dot com
+
+GuildAchievementDisabler.lua
