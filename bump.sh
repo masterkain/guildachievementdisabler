@@ -11,7 +11,7 @@ increment_version() {
 }
 
 # Path to the .toc file
-TOC_FILE="QueueNotifier.toc"
+TOC_FILE="GuildAchievementDisabler.toc"
 
 # Extract the current version from the .toc file
 current_version=$(grep -oE '## Version: [0-9.]+' "$TOC_FILE" | awk '{print $3}')
