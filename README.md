@@ -7,7 +7,7 @@ GuildAchievementDisabler is a World of Warcraft addon designed to prevent guild 
 - 🎯 **Block Guild Achievements:** Automatically blocks specific guild achievement alerts from appearing on your screen.
 - 🔇 **Sound Mute for Blocked Achievements:** Mutes the sound associated with blocked achievements to ensure a completely silent block.
 - 📝 **Debug Logging for Unlisted Achievements:** Logs unlisted guild achievements, allowing you to easily expand the list of blocked achievements.
-- 🧪 **Testing Commands:** Test achievement alerts with a simple `/gad &lt;achievementID&gt;` command for debugging or customizing blocked achievements.
+- 🧪 **Testing Commands:** Test achievement alerts with a simple `/gad achievementID` command for debugging or customizing blocked achievements.
 
 ## 📜 Commands
 
