@@ -2,12 +2,15 @@ local ADDON_NAME, addon = ...
 
 -- List of guild achievements to be blocked (Horde and Alliance versions)
 local hiddenAchievements = {
+	-- Dungeon Diplomat and Classic Battles
 	[5126] = true, -- Dungeon Diplomat (Horde)
 	[5128] = true, -- Classic Battles (Alliance)
 	[5129] = true, -- Ambassadors (Horde)
 	[5130] = true, -- Diplomacy (Horde)
 	[5131] = true, -- Classic Battles (Horde)
 	[5145] = true, -- Dungeon Diplomat (Alliance)
+
+	-- United Nations and Pandaren Embassy
 	[5812] = true, -- United Nations (Horde)
 	[5892] = true, -- United Nations (Alliance)
 	[6644] = true, -- Pandaren Embassy (Horde)
@@ -49,6 +52,31 @@ local hiddenAchievements = {
 	[5178] = true, -- Worgen Slayer (Horde)
 	[5179] = true, -- Alliance Slayer (Horde)
 	[6533] = true, -- Pandaren Slayer (Horde)
+
+	-- Guild and Combat achievements
+	[4912] = true, -- Guild Level 25
+	[5014] = true, -- Northrend Dungeon Hero (Alliance)
+	[5111] = true, -- Heroic: Trial of the Crusader Guild Run (Alliance)
+	[5195] = true, -- City Attacker (Alliance)
+	[5432] = true, -- Guild Commander
+	[5434] = true, -- Guild Marshal
+	[5436] = true, -- Guild Field Marshal
+	[5438] = true, -- Guild Grand Marshal
+	[5441] = true, -- Guild Battlemaster
+	[6532] = true, -- Pandaren Slayer (Alliance)
+	[7448] = true, -- Event Summary (Alliance)
+	[13320] = true, -- Battle of Dazar'alor Guild Run (Alliance)
+	[5110] = true, -- Heroic: Trial of the Crusader Guild Run (Horde)
+	[5124] = true, -- Northrend Dungeon Hero (Horde)
+	[5194] = true, -- City Attacker (Horde)
+	[5433] = true, -- Guild Champion
+	[5435] = true, -- Guild General
+	[5437] = true, -- Guild Warlord
+	[5439] = true, -- Guild High Warlord
+	[5440] = true, -- Guild Battlemaster
+	[5492] = true, -- Guild Level 25
+	[7449] = true, -- Event Summary (Horde)
+	[13319] = true, -- Battle of Dazar'alor Guild Run (Horde)
 }
 
 -- Create a frame to handle events
